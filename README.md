@@ -24,3 +24,13 @@ Pages
 
 -  Add Review (with not only text, but also them potatos)
 -  Edit Review
+
+
+## Users
+_id: ID
+email:String (required, unique)
+username String (required, unique)
+password String (required)
+profilePic: String
+wishlist: [Movies]
+role: String [Either Admin, or Regular]
